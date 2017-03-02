@@ -1,0 +1,17 @@
+insert into CARACTERISTIQUE (RESERVOIR, NBR_PLACES, NBR_PORTES, PRIX_LOCATION_BASE) values (7, 6, 5, 25);
+
+insert into MARQUE (LIBELLE_MARQUE) values ('Dacia');
+
+insert into MODELE (MODELE, PUISSANCE) values ('Sandero', '75-55/5500');
+
+insert into PROPRIETE (NOM, PRENOMS, ADRESSE) values ('Ravelo', 'Nivoharimanana', 'LOT IV30 Anosy');
+
+insert into CATEGORIE (LIBELLE_CATEGORIE) values ('Plaisir');
+
+insert into COULEUR (LIBELLE_COULEUR) values ('Rouge');
+
+insert into CONTACT_PROPRIETAIRE (IDPROPRIETE, CONTACT) values (9, '+261330226432');
+
+insert into VEHICULE (IMMATRICULATION, IDMARQUE, IDCOULEUR, IDMODELE, IDPROPRIETE, IDCATEGORIE, IDCARACTERISTIQUE, KMS, DATE_CIRCULATION) values ('9020 TBD', 9, 9, 9, 9, 9, 9, 200, '2016-01-01');
+
+ 
